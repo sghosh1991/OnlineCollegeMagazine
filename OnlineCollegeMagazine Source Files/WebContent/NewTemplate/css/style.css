@@ -1,0 +1,259 @@
+/* Website template by freewebsitetemplates.com */
+/*------------------------- Layout styles ------------------------*/ 
+body{
+	margin:0;
+	background:url(../images/bg-body.jpg);
+	font-family: 'RokkittRegular';
+}
+.page{
+	background:url(../images/bg-header.jpg) no-repeat center top;
+}
+
+/*------------------------- Font ------------------------*/ 
+@font-face {
+    font-family: 'RokkittRegular';
+    src: url('rokkitt-regular-webfont.eot');
+    src: url('rokkitt-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('rokkitt-regular-webfont.woff') format('woff'),
+         url('rokkitt-regular-webfont.ttf') format('truetype'),
+         url('/OnlineCollegeMagazine/NewTemplate/css/rokkitt-regular-webfont.svg#RokkittRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*------------------------- Header ------------------------*/ 
+.header{
+	background:url(../images/bg-navigation.jpg) no-repeat center 90px;
+	width:940px;
+	margin:0 auto;
+	height:105px;
+	padding:36px 10px 0;
+}
+.header a#logo{
+	display:block;
+	float:left;
+	outline:none;
+}
+.header a#logo img{
+	border:0;
+}
+.header ul{
+	margin:0;
+	list-style:none;
+	padding:13px 0 0;
+	float:right;
+}
+.header ul li{
+	float:left;
+	margin:0 0 0 63px;
+}
+.header ul li.selected a,.header ul li a:hover{
+	color:#f78117;
+}
+.header ul li a{
+	font-size:16px;
+	text-decoration:none;
+	color:#5e5e5e;
+	font-family: 'RokkittRegular';
+	outline:none;
+}
+
+/*------------------------- Body ------------------------*/ 
+.body{
+	width:940px;
+	margin:0 auto;
+	padding:0 10px;
+	overflow:hidden;
+}
+
+#content{
+	position:absolute;
+	left: 83px;
+	top: 700px;
+	width: 1285px;
+	height: 1170px;
+}
+#menu5 {
+	width: 200px;
+	margin: 10px;
+}
+	
+#menu5 li a {
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	text-decoration: none;
+	font-family: 'RokkittRegular';
+	font-size:20px;
+}	
+	
+#menu5 li a:link, #menu5 li a:visited {
+	color: #FFF;
+	display: block;
+	background:  url(../images/menu5.gif);
+	padding: 8px 0 0 10px;
+}
+	
+#menu5 li a:hover {
+	color: #FFF;
+	background:  url(../images/menu5.gif) 0 -32px;
+	padding: 8px 0 0 10px;
+	
+}
+#menu5 ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#edpick {
+	height: 600px;
+	width: 500px;
+	left: 180px;
+	top: 121px;
+	position:absolute;
+}
+
+#edpick_art{
+	
+	margin:8px 8px 8px;
+	
+}
+
+#edpick_art a:link,a:visited,a:active{
+	color:#5e5e5e;
+	font-size:20px;
+	font-family: 'RokkittRegular';
+	margin-bottom: auto;
+	text-decoration: none;
+	
+}
+
+#edpick_art a:hover{
+	text-decoration: none;
+	color:#f78117;
+}
+
+#toprated {
+	height:404px;
+	top:115px;
+	position:absolute;
+	width:421px;
+	left: 757px;
+	margin:6px 6px 6px;
+	font-family: RokkittRegular;
+}
+
+#toprated a:link,a:visited,a:active{
+	color:#5e5e5e;
+	font-size:20px;
+	font-family: 'RokkittRegular';
+	margin-bottom: auto;
+	text-decoration: none;
+	
+}
+#toprated a:hover{
+	text-decoration: none;
+	color:#f78117;
+}
+
+#archive {
+	top: 829px;
+	color: #5e5e5e;
+	height: 159px;
+	width: 1123px;
+	position: absolute;
+	left: 96px;
+	height: 201px;
+	font-family:'RokkittRegular';
+}
+#archive a:link,a:visited,a:active{
+	color: #5e5e5e;
+	font-size: 24px;
+	font-family:'RokkittRegular'
+	text-align: justify;
+	text-decoration:none;
+}
+#archive a:hover{
+	text-decoration:none;
+	color:#f78117;
+}
+
+
+/*------------------------- Footer ------------------------*/ 
+.footer{
+	width:940px;
+	background:url(../images/bg-footer.jpg) no-repeat center top;
+	padding:65px 10px 207px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.footer ul{
+	list-style:none;
+	margin:0 0 0 60px;
+	padding:0;
+	overflow:hidden;
+	float:left;
+}
+.footer ul li:first-child a{
+	border:none;
+	padding:0 6px 0 0;
+}
+.footer ul li{
+	float:left;
+}
+.footer ul li a:hover{
+	color:#F78117;
+}
+.footer ul li a{
+	border-width: 1px;
+	border-color:#5b5b5b;
+	border-style: none none none solid;
+	color:#5b5b5b;
+	font-size:10px;
+	font-family: Trebuchet MS;
+	text-decoration:none;
+	font-weight:bold;
+	padding:0 6px;
+	outline:none;
+}
+.footer p{
+	color:#5b5b5b;
+	font-size:10px;
+	font-family: Trebuchet MS;
+	font-weight:bold;
+	float:left;
+	margin:6px 0 0 135px;
+}
+.footer div.connect{
+	float:left;
+	margin:0 0 0 92px;
+}
+.footer div.connect a{
+	float:left;
+	outline:none;
+}
+.footer div.connect a#facebook{
+	width:27px;
+	height:28px;
+	display:block;
+	text-indent:-9999px;
+	background:url(../images/icons.gif) no-repeat;
+}
+.footer div.connect a#twitter{
+	width:36px;
+	height:28px;
+	display:block;
+	text-indent:-9999px;
+	background:url(../images/icons.gif) no-repeat 0 -48px;
+	margin:0 0 0 68px;
+}
+.footer div.connect a#vimeo{
+	width:32px;
+	height:28px;
+	display:block;
+	text-indent:-9999px;
+	background:url(../images/icons.gif) no-repeat 0 -96px;
+	margin:0 0 0 73px;
+}

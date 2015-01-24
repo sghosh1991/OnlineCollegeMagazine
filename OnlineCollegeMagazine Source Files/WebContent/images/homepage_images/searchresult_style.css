@@ -1,0 +1,180 @@
+body {
+  
+  background: url("background.png") repeat-x center top
+}
+
+#inner_bg {
+	top: 5px;
+	height: 1597px;
+	width: 1249px;
+	background: url("inner_bg.png") repeat-x center;
+	position: absolute;
+	left: 58px;
+}
+
+#top_menu {
+	top: 42px;
+	height: 57px;
+	width: 1250px;
+	background: url("header.png") repeat-x;
+	position: absolute;
+	left: 0px;
+	
+}
+
+#searchform {
+	position:absolute;
+	left: 661px;
+	top: 6px;
+	width: 515px;
+	height: 44px;
+}
+
+#logowrapper {
+	top: 103px;
+	height: 297px;
+	width: 1054px;
+	background: url("logowrapper.png") repeat-x;
+	position: absolute;
+	left: 100px
+}
+
+#content {
+	top:482px;
+	height: 1100px;
+	width: 1325px;
+	background: url("content.png") no-repeat;
+	position: absolute;
+	left: -124px;
+	top: 132px;
+	height: 1364px;
+}
+#kwikscontainer {
+	position: absolute;
+	height: 251px;
+	width: 1110px;
+	left: 256px;
+	top: 170px;
+}
+
+#navmenu {
+	top: 312px;
+	height: 40px;
+	width: 865px;
+	position: absolute;
+	left: 345px;
+	
+}
+
+#navli
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+#nav
+{
+float:left;
+}
+#nav a:link,a:visited
+{
+display:block;
+width:135px;
+font-weight:bold;
+color:#FFFFFF;
+background-color: #00A5F4;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+#nav a:hover,a:active
+{
+background-color: #006;
+}
+
+#search{
+	width:803px;
+	left:362px;
+	position:absolute;
+	top: 398px;
+	height: 826px;
+	margin: 5px;
+	
+}
+
+#archive {
+	top: 1150px;
+
+
+
+	color:#00F
+	height: 159px;
+	width: 1020px;
+	background: url("archive.png") no-repeat;
+	position: absolute;
+	left: 243px;
+}
+#archive a:link,a:visited,a:active{
+	color:#00f;
+	font-size: 24px;
+	font-family:"MS Serif", "New York", serif;
+	text-align: justify;
+	text-decoration:none;
+}
+#archive a:hover{
+	text-decoration:underline;
+	color:#999;
+}
+.button {
+    border: none;
+	width:97px;
+	height:31px;
+	    
+}
+.button:hover {
+    border: thick;
+    width:97px;
+	height:31px
+   
+}
+
+
+
+.center
+{
+margin-left:auto;
+margin-right:auto;
+}
+ 
+
+#top_menu a {
+	font-family: MS Serif, New York, serif;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: auto;
+	text-decoration: none;
+}
+
+#top_menu a:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+#top_menu a:hover {
+	text-decoration: none;
+	color: #09F;
+}
+#top_menu a:active {
+	text-decoration: none;
+	color: #FFC;
+}
+
+#result a:link,a:active,a:visited{
+	text-decoration: none;
+	color:#000;
+}
+#result a:hover{
+	text-decoration: none;
+	color:#09F;
+}

@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  
+  background: url("longbackground.png") repeat-x center top
+}
+
+#inner_bg {
+	top: 7px;
+	height: 4500px;
+	width: 1241px;
+	background: url("verylonginnerbg.png") repeat-x center;
+	position: absolute;
+	left: 60px;
+}
+
+#top_menu {
+	top: 4px;
+	height: 57px;
+	width: 1250px;
+	background: url("header.png") repeat-x;
+	position: absolute;
+	left: -1px;
+	
+}
+
+#searchform {
+	position:absolute;
+	left: 661px;
+	top: 6px;
+	width: 515px;
+	height: 44px;
+}
+
+#logowrapper {
+	top: 71px;
+	height: 272px;
+	width: 1054px;
+	background: url("logowrapper.png") repeat-x;
+	position: absolute;
+	left: 99px
+}
+
+#content {
+	top:482px;
+	height: 2000px;
+	width: 1053px;
+	background: url("verylongcontent.png") repeat-x;
+	position: absolute;
+	left: 99px;
+	top: 364px;
+	height: 4012px;
+}
+
+
+#navmenu {
+	top: 29px;
+	height: 40px;
+	width: 865px;
+	position: absolute;
+	left: 103px;
+	
+}
+
+#navli
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+#nav
+{
+float:left;
+}
+#nav a:link,a:visited
+{
+display:block;
+width:135px;
+font-weight:bold;
+color:#FFFFFF;
+background-color: #00A5F4;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+#nav a:hover,a:active
+{
+background-color: #006;
+}
+
+#profile{
+	width:960px;
+	left:30px;
+	position:absolute;
+	top: 84px;
+	height: 3500px;
+	margin: 5px;
+	border:2px solid #a1a1a1;
+	padding:20px 20px;
+	background: #BBCFFD;
+	box-shadow: 10px 10px 5px #888888;
+	
+}
+#profile_pic{
+	width:180px;
+	height::180px;
+	margin: 5px;
+}
+
+#art_tab{
+	width:300;
+	position:absolute;
+	top: 30px;
+	table-layout:auto;
+	left: 299px;
+}
+.button {
+    border: none;
+	width:97px;
+	height:31px;
+	    
+}
+.button:hover {
+    border: thick;
+    width:97px;
+	height:31px
+   
+}
+
+
+
+.center
+{
+margin-left:auto;
+margin-right:auto;
+}
+ 
+
+a {
+	font-family: MS Serif, New York, serif;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: auto;
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+a:hover {
+	text-decoration: underline;
+	color: #09F;
+}
+a:active {
+	text-decoration: none;
+	color: #FFC;
+}
+#inner_bg #content #profile div form table tr td {
+	font-weight: bold;
+}

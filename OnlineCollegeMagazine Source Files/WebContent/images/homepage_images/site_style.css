@@ -1,0 +1,293 @@
+body {
+  
+  background: url("background.png") repeat-x center top;
+}
+
+#inner_bg {
+	top: 9px;
+	height: 1516px;
+	width: 1249px;
+	background: url("inner_bg.png") repeat-x center;
+	position: absolute;
+	left: 75px;
+}
+
+#top_menu {
+	top: 7px;
+	height: 57px;
+	width: 1250px;
+	background: url("header.png") repeat-x;
+	position: absolute;
+	left: 1px;
+	
+}
+
+#searchform {
+	position:absolute;
+	left: 661px;
+	top: 6px;
+	width: 515px;
+	height: 44px;
+}
+
+#logowrapper {
+	top: 74px;
+	height: 297px;
+	width: 1054px;
+	background: url("logowrapper.png") repeat-x;
+	position: absolute;
+	left: 102px
+}
+
+#content {
+	top:482px
+	height: 1100px;
+	width: 1325px;
+	background: url("content.png") no-repeat;
+	position: absolute;
+	left: -124px;
+	top: 102px;
+	height: 1321px;
+}
+
+#kwikscontainer {
+	position: absolute;
+	height: 318px;
+	width: 1110px;
+	left: 260px;
+	top: 149px;
+}
+
+#navmenu {
+	top: 415px;
+	height: 40px;
+	width: 865px;
+	position: absolute;
+	left: 322px;
+	
+}
+
+#nav
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	position:relative;
+}
+#nav li
+{
+	float:left;
+	display:block;
+	position:relative;
+}
+#nav li a:link,a:visited
+{
+	display:block;
+	width:135px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color: #00A5F4;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+#nav li a:hover,a:active
+{
+	background-color: #006;
+}
+
+#nav li ul {
+            position:absolute; 
+            left:0; 
+            display:none; 
+            margin:0 0 0 -1px; 
+            padding:0; 
+            list-style:none;
+        }
+         
+#nav li ul li {
+            width:135px; 
+            float:left; 
+            border-top:1px solid #fff;
+            
+        }
+        
+#nav li ul li a {
+            display:block;  
+            height:17px;
+            padding: 8px 5px; 
+            background-color: #00A5F4;
+        }
+         
+#nav li ul li a:hover {
+            text-decoration:underline;
+            background-color:#006;  
+        }
+
+#edpick {
+	height:609px;
+	top:481px;
+	position:absolute;
+	width:540px;
+	left: 324px;
+}
+#edpick_art{
+	
+	margin:8px 8px 8px;
+	
+}
+
+#edpick_art a:link,a:visited,a:active{
+	color:#000;
+	font-size:17px;
+	font-family: MS Serif, New York, serif;
+	margin-bottom: auto;
+	text-decoration: none;
+	
+}
+
+#edpick_art a:hover{
+	text-decoration: none;
+	color:#09f;
+}
+#toprated {
+	height:426px;
+	top:476px;
+	position:absolute;
+	width:294px;
+	left: 885px;
+	margin:6px 6px 6px;
+}
+
+#toprated a:link,a:visited,a:active{
+	color:#000;
+	font-size:18px;
+	font-family: MS Serif, New York, serif;
+	margin-bottom: auto;
+	text-decoration: none;
+	
+}
+#toprated a:hover{
+	text-decoration: none;
+	color:#09f;
+}
+
+#archive {
+	top: 1119px;
+	color: #00F;
+	height: 159px;
+	width: 1010px;
+	background: url("archive.png") no-repeat;
+	position: absolute;
+	left: 249px;
+	height: 201px;
+}
+#archive a:link,a:visited,a:active{
+	color: #00F;
+	font-size: 24px;
+	font-family:"MS Serif", "New York", serif;
+	text-align: justify;
+	text-decoration:none;
+}
+#archive a:hover{
+	text-decoration:underline;
+	color:#09F;
+}
+.button {
+    border: none;
+	width:97px;
+	height:31px;
+	    
+}
+.button:hover {
+    border: thick;
+    width:97px;
+	height:31px
+   
+}
+
+
+
+.center
+{
+margin-left:auto;
+margin-right:auto;
+}
+ 
+
+a {
+	font-family: MS Serif, New York, serif;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: auto;
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+a:hover {
+	text-decoration: underline;
+	color: #09F;
+}
+a:active {
+	text-decoration: none;
+	color: #FFC;
+	text-align: center;
+}
+
+.jimgMenu {
+	position: relative;
+	width: 800px;
+	height: 240px;
+	overflow: visible;
+	margin: 1px 10px 0px;
+}
+
+.jimgMenu ul {
+	list-style: none;
+	margin: 0px;
+	display: block;
+	height: 240px;
+	width: 1340px;
+	
+	}
+
+.jimgMenu ul li {
+	float: left;
+}
+
+.jimgMenu ul li a {
+	text-indent: -1000px;
+	background:#FFFFFF none repeat scroll 0%;
+	border-right: 2px solid #fff;
+	cursor:pointer;
+	display:block;
+	overflow:hidden;
+	width:78px;
+	height: 240px;
+}
+
+.jimgMenu ul li.image1 a {
+	background: url(../../MostViewed/image1.jpg) repeat scroll 0%;
+}
+
+.jimgMenu ul li.image2 a {
+	background: url(../../MostViewed/image2.jpg) repeat scroll 0%;
+}
+
+.jimgMenu ul li.image3 a {
+	background: url(../../MostViewed/image3.jpg) repeat scroll 0%;
+}
+.jimgMenu ul li.image4 a {
+	background: url(../../MostViewed/image5.jpg) repeat scroll 0%;
+}
+
+.jimgMenu ul li.image5 a {
+	background: url(../../MostViewed/image4.jpg) repeat scroll 0%;
+	min-width:310px;
+	
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/contactinfo" xmlns:tns="http://www.example.org/contactinfo" elementFormDefault="qualified">
+
+    <complexType name="Address">
+    	<sequence>
+    		<element name="Street" type="string"></element>
+    		<element name="City" type="string"></element>
+    		<element name="Zip" type="string"></element>
+    	</sequence>
+    </complexType>
+
+
+</schema>

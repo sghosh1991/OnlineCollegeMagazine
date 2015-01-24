@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  
+  background: url("background.png") repeat-x center top;
+
+}
+#inner_bg {
+	top: 14px;
+	height: 2339px;
+	width: 1241px;
+	background: url("longinnerbg.png") repeat-x center;
+	position: absolute;
+	left: 50px;
+}
+
+#top_menu {
+	top: 4px;
+	height: 57px;
+	width: 1240px;
+	background: url("header.png") repeat-x;
+	position: absolute;
+	left: 1px;
+	
+}
+
+#searchform {
+	position:absolute;
+	left: 661px;
+	top: 6px;
+	width: 515px;
+	height: 44px;
+}
+
+#logowrapper {
+	top: 68px;
+	height: 270px;
+	width: 1054px;
+	background: url("logowrapper.png") repeat-x;
+	position: absolute;
+	left: 97px
+}
+
+#content {
+	top:482px;
+	height: 1100px;
+	width: 1055px;
+	background: url("longcontent.png") repeat-x;
+	position: absolute;
+	left: 96px;
+	top: 348px;
+	height: 1980px;
+}
+
+
+#navmenu {
+	top: 14px;
+	height: 40px;
+	width: 865px;
+	position: absolute;
+	left: 91px;
+	
+}
+
+#navli
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+#nav
+{
+float:left;
+}
+#nav a:link,a:visited
+{
+display:block;
+width:135px;
+font-weight:bold;
+color:#FFFFFF;
+background-color: #00A5F4;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+#nav a:hover,a:active
+{
+background-color: #006;
+}
+
+
+.button {
+    border: none;
+	width:97px;
+	height:31px;
+	    
+}
+.button:hover {
+    border: thick;
+    width:97px;
+	height:31px
+   
+}
+
+
+
+.center
+{
+margin-left:auto;
+margin-right:auto;
+}
+ 
+
+a {
+	font-family: MS Serif, New York, serif;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: auto;
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+a:hover {
+	text-decoration: underline;
+	color: #09F;
+}
+a:active {
+	text-decoration: none;
+	color: #FFC;
+}
