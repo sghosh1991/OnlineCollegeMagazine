@@ -2,8 +2,8 @@
 A J2EE based online college magazine that was selected as one of the top 15 across INDIA in IBM's The Great Minds Challenge
 
 Summary:
-This is an online version of a college magazine, built on on J2EE platform. It is an end to end system which emulates the magazine submisiion
-to publishing pipeline. Everything like declaration of the magazine cover theme,submitting articles by people
+This is an online version of a college magazine, built on on J2EE platform. It is an end to end system which emulates the article submision
+to magazine publication pipeline. Everything like declaration of the magazine cover theme,submitting articles by people
 under different categories(which are tagged by key words), article selection by moderators/editors, publishing and archiving has
 been brought inder one system.
 
