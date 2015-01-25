@@ -3,13 +3,14 @@ A J2EE based online college magazine that was selected as one of the top 15 acro
 
 Summary:
 This is an online version of a college magazine, built on on J2EE platform. It is an end to end system which emulates the magazine submisiion
-to oublishing pipeline. Almost everything right from declaration of the magazine cover theme,submitting articles by people
+to publishing pipeline. Everything like declaration of the magazine cover theme,submitting articles by people
 under different categories(which are tagged by key words), article selection by moderators/editors, publishing and archiving has
 been brought inder one system.
 
 Other featres include:
 Local language support(in 2 other languages hindi,bengali)
 Dynamic search.
+Dynamic reports generation for moderators to track activity.
 
 
 Tools Used:
